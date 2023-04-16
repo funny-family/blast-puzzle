@@ -1,7 +1,10 @@
+import * as PIXI from 'pixi.js';
 import './style.css';
 import javascriptLogo from './javascript.svg';
 import viteLogo from './public/vite.svg';
 import { setupCounter } from './counter';
+
+console.log('PIXI:', PIXI);
 
 document.querySelector('#app').innerHTML = `
   <div>
